@@ -58,12 +58,6 @@ $(document).ready(function(){
 	$('.hero').parallax("50%", 0.3);
 
 
-
-
-
-
-
-
 	//Nice scroll initialization
 	$("html").niceScroll({
 		scrollspeed: 50,
@@ -77,12 +71,6 @@ $(document).ready(function(){
 	});
 
 
-
-
-
-
-
-
 	//Testimonials slider initialization
 	$("#tslider").owlCarousel({
 		items : 1,
@@ -93,13 +81,9 @@ $(document).ready(function(){
 		singleItem: true,
 		responsive: true,
 		autoPlay : true,
-		transitionStyle : "fade"
+		transitionStyle : "fade",
+		dots: true,
 	});
-
-
-
-
-
 
 
 	//Mailchimp subscription form initialization
@@ -134,12 +118,6 @@ $(document).ready(function(){
 	function processing(hide, show){
 			$('#mc_submit i').removeClass(hide).addClass(show);
 	}
-
-
-
-
-
-
 
 
 	//Popup video
